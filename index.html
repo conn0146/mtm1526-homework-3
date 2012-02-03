@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>jQuery App</title>
+	<link href="css/general.css" rel="stylesheet">
+</head>
+<body>
+
+    <form action="index.html" method="post">
+    	<label for="dropdown">Effect</label>
+		<select id="dropdown" name="dropdown">
+			<option value="bor">border-color</option>
+			<option value="bac">background-color</option>
+			<option value="co">color</option>
+		</select>
+        
+        <label for="color">color</label>
+		<input id="color" name="color">
+        
+    </form>
+    <button type="submit">Apply</button>
+    <!--<button id ="sh" type="submit">Show/Hide</button> -->
+    
+    <div id="rim">
+			<div id="inside">
+				<p id="text">jQuery</p>
+			</div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="js/gui.js"></script>
+</body>
+</html>

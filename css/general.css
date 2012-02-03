@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+#rim {
+	margin:auto;
+	width:15.5em;
+	height:15.5em;
+	border-style:solid;
+	border-width:15px;
+	-webkit-border-radius: 300px;
+	-moz-border-radius: 300px;
+	border-radius: 300px;
+	border-color:#000;
+}
+
+#inside {
+	margin:auto;
+	width: 3em;
+	border: 100px solid;
+	-webkit-border-radius: 300px;
+	-moz-border-border-radius: 300px;
+	border-radius: 300px;
+	border-color: #F00;
+	background-color: #F00;
+}
+
+#text {
+	color: #FFF;
+}
